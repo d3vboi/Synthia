@@ -1,8 +1,10 @@
 import { Link } from "react-router-dom"
+import './Navbar.css'
 const Navbar =()=>{
       return (
-            <div>
-                  <Link to="/">Home</Link>
+            <div class="navbar">
+                  <Link className="link" to="/">Synthia AI</Link>
+                  <Link style={{float:'right'}} className="link" id="profile">Acc</Link>
             </div>
       )
 }

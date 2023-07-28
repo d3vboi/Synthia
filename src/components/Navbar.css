@@ -1,0 +1,39 @@
+body {
+    background-color:rgb(35,35,35)
+}
+.navbar {
+    position:fixed;
+    list-style:none;
+    overflow:hidden;
+    padding:0;
+    margin:0;
+    top:0;
+    background-color:rgb(45, 45, 45);
+    height:50px;
+    display:inline;
+    float:left;
+    width:100%;
+}
+.link {
+    background-color:rgb(66, 117, 81);
+    padding:8px;
+    display:block;
+    float:left;
+    color:white;
+    text-align:center;
+    text-decoration:none;
+    padding:14px 16px;
+}
+.link:last-child {
+    border-right:none;
+    border-radius:0px 0px 0px 15px;
+}
+.link:nth-last-child(2) {
+    border-radius:0px 0px 15px 0px;
+}
+.link:hover {
+    background-color:blueviolet
+}
+.active {
+    background-color:rgb(87, 41, 134)
+}
