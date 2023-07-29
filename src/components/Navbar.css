@@ -1,6 +1,4 @@
-body {
-    background-color:rgb(35,35,35)
-}
+
 .navbar {
     position:fixed;
     list-style:none;
@@ -16,23 +14,31 @@ body {
 }
 .link {
     background-color:rgb(66, 117, 81);
-    padding:8px;
+
     display:block;
     float:left;
-    color:white;
+    color:rgb(226, 226, 226);
     text-align:center;
     text-decoration:none;
     padding:14px 16px;
+    transition: background-color 0.5s ease;
+}
+.link img {
+    width:37px;
+    height:37px;
 }
 .link:last-child {
     border-right:none;
     border-radius:0px 0px 0px 15px;
+    float:right;
+    padding:4px !important;
+    
 }
 .link:nth-last-child(2) {
     border-radius:0px 0px 15px 0px;
 }
 .link:hover {
-    background-color:blueviolet
+    background-color:rgb(39, 84, 53);
 }
 .active {
     background-color:rgb(87, 41, 134)
