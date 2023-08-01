@@ -8,6 +8,7 @@ const Navbar =()=>{
       return (
             <div class="navbar">
                   <Link className="link" to="/">Synthia AI</Link>
+                  <Link className="link" to="/Chat">Chatbot</Link>
                   <Link className="link" id="profile"><img src={PfpLogo} alt="Profile Picture"/></Link>
             </div>
       )

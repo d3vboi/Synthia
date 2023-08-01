@@ -14,7 +14,7 @@
 }
 .link {
     background-color:rgb(66, 117, 81);
-
+    margin-right:2px;
     display:block;
     float:left;
     color:rgb(226, 226, 226);
@@ -22,6 +22,7 @@
     text-decoration:none;
     padding:14px 16px;
     transition: background-color 0.5s ease;
+    border-radius: 3px 3px 3px 3px;
 }
 .link img {
     width:37px;
@@ -35,7 +36,7 @@
     
 }
 .link:nth-last-child(2) {
-    border-radius:0px 0px 15px 0px;
+    border-radius:3px 3px 15px 3px;
 }
 .link:hover {
     background-color:rgb(39, 84, 53);
