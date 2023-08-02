@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Synthia/static/css/main.d4e15f4d.css",
-    "main.js": "/Synthia/static/js/main.30143bf8.js",
+    "main.js": "/Synthia/static/js/main.b10328cf.js",
     "static/js/787.2b0bbc41.chunk.js": "/Synthia/static/js/787.2b0bbc41.chunk.js",
     "index.html": "/Synthia/index.html",
     "main.d4e15f4d.css.map": "/Synthia/static/css/main.d4e15f4d.css.map",
-    "main.30143bf8.js.map": "/Synthia/static/js/main.30143bf8.js.map",
+    "main.b10328cf.js.map": "/Synthia/static/js/main.b10328cf.js.map",
     "787.2b0bbc41.chunk.js.map": "/Synthia/static/js/787.2b0bbc41.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d4e15f4d.css",
-    "static/js/main.30143bf8.js"
+    "static/js/main.b10328cf.js"
   ]
 }
