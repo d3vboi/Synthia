@@ -70,20 +70,21 @@ const Chat =()=>{
     }
     opener();
 
+//    <div className="message human-bg">
+//    <div className="message-sender">You</div>
+//    <div className="message-text">Hello</div>
+//    <div className="message-timestamp">13:54</div>           
+//    </div>
+//    <div className="message bot-bg">
+//    <div className="message-sender">Synthia</div>
+//    <div className="message-text">Hello</div>
+//    <div className="message-timestamp">14:02</div>           
+//    </div>
     return (
         <div className="Chat">
             <h2 ref={chatHeader} className="chat-header">Synthia AI</h2>
             <div ref={chatMessages} className="chat-messages">
-                <div className="message human-bg">
-                    <div className="message-sender">You</div>
-                    <div className="message-text">Hello</div>
-                    <div className="message-timestamp">13:54</div>           
-                </div>
-                <div className="message bot-bg">
-                    <div className="message-sender">Synthia</div>
-                    <div className="message-text">Hello</div>
-                    <div className="message-timestamp">14:02</div>           
-                </div>
+
             </div>
             <form ref={chatInputForm} className="chat-input-form" onSubmit={handleSubmit}>
                 <input ref={chatInput} onChange={(e) => setInputValue(e.target.value)} type="text" className="chat-input" required placeholder="Type here..."/>
