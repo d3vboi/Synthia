@@ -1,6 +1,6 @@
 import './Chat.css'
 import Carter from 'carter-js'
-import { useState, useRef } from 'react'
+import { useState, useRef, useEffect } from 'react'
 
 
 const Chat =()=>{
@@ -18,7 +18,10 @@ const Chat =()=>{
         <div style="font-size:0.75em;text-align:right;" className="message-timestamp">${message.timestamp}</div>           
     </div>
     `
-    
+    useEffect(
+        opener(),
+        [] // empty dependency array
+    )
 
     const scrollToBottom = (id) => {
         const element = id.current;
@@ -68,7 +71,6 @@ const Chat =()=>{
         const response = await carter.opener('TesterID4');
         botMessage(response.outputText);
     }
-    opener();
 
 //    <div className="message human-bg">
 //    <div className="message-sender">You</div>
