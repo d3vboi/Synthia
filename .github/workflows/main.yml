@@ -1,0 +1,16 @@
+name: D3vboi CI
+
+on:
+  push:
+    branches: [ $default-branch ]
+  pull_request:
+    branches: [ $default-branch ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Export all secrets to env variables
+        uses: oNaiPs/secrets-to-env-action@v1.3
+ 
