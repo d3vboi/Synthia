@@ -65,10 +65,10 @@ const Chat =()=>{
         botMessage(outputText);
     }
     const opener = async (e) => {
-        const response = carter.opener('TesterID4');
+        const response = await carter.opener('TesterID4');
         botMessage(response);
     }
-    opener
+    opener();
 
     return (
         <div className="Chat">
