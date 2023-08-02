@@ -66,7 +66,7 @@ const Chat =()=>{
     }
     const opener = async (e) => {
         const response = await carter.opener('TesterID4');
-        botMessage(response);
+        botMessage(response.outputText);
     }
     opener();
 
