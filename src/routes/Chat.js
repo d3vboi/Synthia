@@ -18,10 +18,7 @@ const Chat =()=>{
         <div style="font-size:0.75em;text-align:right;" className="message-timestamp">${message.timestamp}</div>           
     </div>
     `
-    useEffect(
-        opener(),
-        [] // empty dependency array
-    )
+    
 
     const scrollToBottom = (id) => {
         const element = id.current;
@@ -67,10 +64,15 @@ const Chat =()=>{
         console.log(outputText);
         botMessage(outputText);
     }
+
     const opener = async (e) => {
         const response = await carter.opener('TesterID4');
         botMessage(response.outputText);
     }
+    //useEffect(
+    //    opener(),
+    //    [] // empty dependency array
+    //)
 
 //    <div className="message human-bg">
 //    <div className="message-sender">You</div>
