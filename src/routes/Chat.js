@@ -9,8 +9,7 @@ const Chat =()=>{
     const chatMessages = useRef();
     const chatInput = useRef();
     const chatInputForm = useRef();
-    const apiKey = process.env.CARTER_API
-    console.log(apiKey)
+    const apiKey = atob('NGVhMGVkMTYtNGUwNS00OWY3LWI5ZmItYjRiNWRjM2RkOWIy')
     const carter = new Carter(apiKey)
     const createChatMessageElement = (message) => `
     <div style="padding: 0.625em;border-radius:1em;margin-bottom:0.625em;display:flex;flex-direction:column;color:#fff;${message.sender === 'You' ? 'background-color:#1c9bef;' : 'background-color:#3d5365;'}" className="message ${message.sender === 'You' ? 'human-bg' : 'bot-bg'}">
