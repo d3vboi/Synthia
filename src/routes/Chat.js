@@ -59,12 +59,16 @@ const Chat =()=>{
         chatInputForm.current.reset()
         chatInput.current.focus();
         sendMessage();
-        const interaction = await carter.say(inputValue, "TesterID3");
+        const interaction = await carter.say(inputValue, "TesterID4");
         const outputText = interaction.outputText;
         console.log(outputText);
         botMessage(outputText);
     }
-
+    const opener = async (e) => {
+        const response = carter.opener('TesterID4');
+        botMessage(response);
+    }
+    opener
 
     return (
         <div className="Chat">
