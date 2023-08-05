@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Synthia/static/css/main.d4e15f4d.css",
-    "main.js": "/Synthia/static/js/main.ea7529b7.js",
-    "static/js/787.2b0bbc41.chunk.js": "/Synthia/static/js/787.2b0bbc41.chunk.js",
-    "index.html": "/Synthia/index.html",
-    "main.d4e15f4d.css.map": "/Synthia/static/css/main.d4e15f4d.css.map",
-    "main.ea7529b7.js.map": "/Synthia/static/js/main.ea7529b7.js.map",
-    "787.2b0bbc41.chunk.js.map": "/Synthia/static/js/787.2b0bbc41.chunk.js.map"
+    "main.css": "/static/css/main.a8820636.css",
+    "main.js": "/static/js/main.318a8787.js",
+    "static/js/787.2b0bbc41.chunk.js": "/static/js/787.2b0bbc41.chunk.js",
+    "index.html": "/index.html",
+    "main.a8820636.css.map": "/static/css/main.a8820636.css.map",
+    "main.318a8787.js.map": "/static/js/main.318a8787.js.map",
+    "787.2b0bbc41.chunk.js.map": "/static/js/787.2b0bbc41.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d4e15f4d.css",
-    "static/js/main.ea7529b7.js"
+    "static/css/main.a8820636.css",
+    "static/js/main.318a8787.js"
   ]
 }
