@@ -11,8 +11,8 @@ const Chat =()=>{
     const chatMessages = useRef();
     const chatInput = useRef();
     const chatInputForm = useRef();
-    const apiKey = atob('NGVhMGVkMTYtNGUwNS00OWY3LWI5ZmItYjRiNWRjM2RkOWIy');
-    const carter = new Carter(apiKey);
+    const jgeaSjgeA = atob('NGVhMGVkMTYtNGUwNS00OWY3LWI5ZmItYjRiNWRjM2RkOWIy');
+    const carter = new Carter(jgeaSjgeA);
 
      
 
